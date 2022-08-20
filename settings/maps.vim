@@ -5,11 +5,7 @@ nnoremap <leader>w :w<CR>  " Guardar con <líder> + s
 nnoremap <leader>q :q<CR>
 
 "nnoremap <leader>e :e $MYVIMRC<CR>  " Abrir el archivo init.vim con <líder> + e
-nnoremap <leader>e :e ~/.config/nvim/init.vim<CR>  " Abrir el archivo init.vim con <líder> + e
-
-" Acceder a las configuraciones de mapeado y plugins
-nnoremap <leader>f :e ~/.vim/plugins.vim<CR>
-nnoremap <leader>m :e ~/.vim/maps.vim<CR>
+nnoremap <leader>e :e ~/AppData/Local/nvim/init.vim<CR>  " Abrir el archivo init.vim con <líder> + e
 
 " Usar <líder> + y para copiar al portapapeles
 vnoremap <leader>y "+y
@@ -49,3 +45,6 @@ au Syntax * RainbowParenthesesLoadBraces
 
 " Lens vim 
 let g:lens#disabled_filetypes = ['nerdtree', 'fzf']
+
+" Prettier coc
+command! -nargs=0 Prettier :CocCommand prettier.formatFile

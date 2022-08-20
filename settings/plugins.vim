@@ -40,6 +40,7 @@ Plug 'yggdroot/indentline'
 
 "Autocompletado
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  "{'do': {-> coc#util#install()}}
+Plug 'mhartington/formatter.nvim'
 
 call plug#end()
 

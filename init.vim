@@ -22,20 +22,12 @@ set mouse=a
 
 
 " Locación de configuración de Plugins, mapeos y COC
-so ~/.config/nvim/settings/plugins.vim
-so ~/.config/nvim/settings/coc_config.vim
-so ~/.config/nvim/settings/maps.vim
+so ~/AppData/Local/nvim/settings/plugins.vim
+so ~/AppData/Local/nvim/settings/coc_config.vim
+so ~/AppData/Local/nvim/settings/maps.vim
 
 colorscheme gruvbox
 
-"----------------- VIM ----------------------
-
-" Correr programa de c
-"map <F3> : !gcc % && ./a.out<CR>
-" Correr programa de python
-"map <F5> : !python3 %<CR>
-"
-"--------------------------------------------
 "----------------- NEOVIM ----------------------
 
 " Correr programa de c
